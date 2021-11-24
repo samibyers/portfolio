@@ -8,8 +8,8 @@ import "../Portfolio.css";
 function Portfolio() {
   return (
     // <!--Work section-->
-    <section>
-        <h1 className="h1">Work</h1>
+    <section className="body">
+        <div className="h1">Portfolio</div>
         <div>
             <div>
                 <a href="https://toma-doggy.herokuapp.com/" target="_blank"><img className="img" src={TomaDoggyImage}></img></a>

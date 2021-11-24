@@ -1,10 +1,10 @@
 import React from "react";
-
+import "../Contact.css";
 
 function Contact() {
     return (
-     <div>
-         Add Contact
+     <div className="h1 body">
+         Contact
      </div>
     );
   }
