@@ -28,3 +28,19 @@
   color: rgb(170, 168, 168);
   
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  height: 10%;
+  width: 100%;
+  background: grey;
+  
+}
+
+.icon {
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+}

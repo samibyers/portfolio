@@ -1,6 +1,6 @@
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
-import "../Footer.css";
+import "../App.css";
 import {BiMailSend} from "react-icons/bi";
 import {BiPhone} from "react-icons/bi";
 
