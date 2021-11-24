@@ -1,4 +1,9 @@
 import React from "react";
+import TomaDoggyImage from "../images/tomadoggy.png";
+import RecipeBuilder from "../images/recipebuilder.png";
+import WorkdayPlanner from "../images/workdayplanner.png";
+import PasswordGenerator from "../images/passwordgenerator.png";
+import "../Portfolio.css";
 
 function Portfolio() {
   return (
@@ -7,7 +12,7 @@ function Portfolio() {
         <h1>Work</h1>
         <div>
             <div>
-                <a href="https://toma-doggy.herokuapp.com/" target="_blank"><img src={"./assets/toma-doggy-screenshot.png"} alt="screenshot of Toma-Doggy project" /></a>
+                <a href="https://toma-doggy.herokuapp.com/" target="_blank"><img className="img" src={TomaDoggyImage}></img></a>
                 <div>
                     <h3>Toma-Doggy</h3>
                     <p>Adopt a virtual pet!</p>
@@ -17,7 +22,7 @@ function Portfolio() {
                 </div>
             </div>   
             <div>
-                <a href="https://samibyers.github.io/workday-planner/" target="_blank"><img src={"https://user-images.githubusercontent.com/90110594/136709638-5a870847-a23d-496b-9076-ffa1d7266d56.png"} alt="screenshot of workday planner homework" /></a>
+                <a href="https://samibyers.github.io/workday-planner/" target="_blank"><img className="img" src={WorkdayPlanner}></img></a>
                 <div>
                     <h3>Worday Planner</h3>
                     <p>A simple planner for the work week</p>
@@ -26,7 +31,7 @@ function Portfolio() {
                 </div>
             </div>
             <div>
-                <a href="https://samibyers.github.io/random_password_generator/" target="_blank"><img src={"https://user-images.githubusercontent.com/90110594/136709743-f7d3da28-5db0-4a8f-a4ad-ae43c034e2c4.png"} alt="screenshot of random password generator" /></a>
+                <a href="https://samibyers.github.io/random_password_generator/" target="_blank"><img className="img" src={PasswordGenerator}></img></a>
                 <div>
                     <h3>Password Generator</h3>
                     <p>Build a custom random password</p>
@@ -35,7 +40,7 @@ function Portfolio() {
                 </div>
             </div>
             <div>
-                <a href="https://recipebuilder.github.io/recipe-builder/" target="_blank"><img src={"https://user-images.githubusercontent.com/90110594/136709436-5be7c730-e51c-48d7-998a-8d1b3f868f39.png"} alt="screenshot of recipe builder project" /></a>
+                <a href="https://recipebuilder.github.io/recipe-builder/" target="_blank"><img className="img" src={RecipeBuilder}></img></a>
                 <div>
                     <h3>Recipe Builder</h3>
                     <p>A website for finding recipes</p>
@@ -44,7 +49,7 @@ function Portfolio() {
                 </div>
             </div>
             <div>
-                <a href="https://samibyers.github.io/random_password_generator/" target="_blank"><img src={"https://user-images.githubusercontent.com/90110594/136709743-f7d3da28-5db0-4a8f-a4ad-ae43c034e2c4.png"} alt="screenshot of random password generator" /></a>
+                <a href="https://samibyers.github.io/random_password_generator/" target="_blank"><img className="img" src={PasswordGenerator}></img></a>
                 <div>
                     <h3>Password Generator</h3>
                     <p>Build a custom random password</p>
