@@ -19,22 +19,29 @@ body {
     padding-bottom: 10px;
 }
 
-img {
-    width: 30%;
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    color: #03045E;
+    margin: 0 auto;
+    padding: 20px;
+    background: #CAF0F8;
+    margin: 10px;
 }
 
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
+.container {
+    background: #CAF0F8;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #03045E;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
