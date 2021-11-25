@@ -5,15 +5,15 @@ import WorkdayPlanner from "../images/workdayplanner.png";
 import PasswordGenerator from "../images/passwordgenerator.png";
 import "../Portfolio.css";
 
+
 function Portfolio() {
   return (
-    // <!--Work section-->
-    <section className="body">
+    <div>
         <div className="h1">Portfolio</div>
         <div>
-            <div>
-                <a href="https://toma-doggy.herokuapp.com/" target="_blank"><img className="img" src={TomaDoggyImage}></img></a>
-                <div>
+            <div className="card">
+                <a href="https://toma-doggy.herokuapp.com/" target="_blank"><img style={{width: "100%"}} src={TomaDoggyImage}></img></a>
+                <div className="container">
                     <h3>Toma-Doggy</h3>
                     <p>Adopt a virtual pet!</p>
                     
@@ -58,7 +58,7 @@ function Portfolio() {
                 </div>
             </div>
         </div>
-    </section>
+    </div>
   );
 }
 

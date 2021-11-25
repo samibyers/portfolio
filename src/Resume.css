@@ -8,14 +8,8 @@ body {
     background: #03045E;
    
 }
-.body {
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-    min-height: 100%;
-   color: white;
-}
-.h1 {
-    font-size: 50px;
-    padding-bottom: 10px;
+
+.resume {
+    display:flex;
+    justify-content: center;
 }
