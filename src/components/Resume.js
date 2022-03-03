@@ -7,7 +7,7 @@ import MyResume from "../resume/My Updated Resume - Google Docs.pdf";
 
 function Resume() {
     return (
-    <div style={{overflow: 'scroll', height:600}} className="resume">
+    <div className="resume">
         <Document file={MyResume}>
          {[1,2].map(page => (
             <Page pageNumber={page} />
