@@ -5,25 +5,27 @@
   }
 
 body {
-    background: #03045E;
+    background: #f8edeb;
 }
-.body {
+/* .body {
     margin: 10px;
     padding: 20px;
     font-size: 20px;
     min-height: 100%;
-   color: white;
-}
+   
+} */
 .h1 {
     font-size: 50px;
     padding-bottom: 10px;
+    color: #03045E;
 }
 
-.card {
+#card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: fit-content;
-    border-radius: 10px;
-    color: #03045E;
+    border-radius: 0;
+    color: #414655;
     padding: 20px;
-    background: #CAF0F8;
+    background: #d8e2dc;
+    margin-bottom: 20px;
 }

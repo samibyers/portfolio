@@ -5,9 +5,12 @@ function AboutMe() {
   return (
     // <!--About me section-->
     <section className="body">
-            <div className="h1">About me</div>
-        <div className="card">
-            <p>I grew up in Olympia, Washington and lived there my whole life until I was 16 years old. At 16, I had the opportunity to travel abroad with a student exchange program and I took it. I lived in Switzerland for a year and I got to travel all around Europe and meet other young people from all around the world. It was such an amazing opportunity and I'm still so grateful I was able to immerse myslef completely in another culture at such a young age. Later, I went to Univeristy of Washington and graduated with a Bachelors of Science in Molecular, Cellular, and Developmental Biology. My intention was to go to PA school with my degree and work in healthcare with patients. I have worked different jobs in healthcare since college and I recently realized I don't have a passion for patient care and I don't want to pursue PA school or any other role in healthcare. I enjoy working at a computer and I have really enjoyed learning how to code so far! I am ready for the challenges ahead and very excited for a new career! </p>
+        <div className="h1">About me</div>
+        <div id="card">
+            <p>I am a Full Stack Web Developer with a background in Molecular Biology and professional experience in healthcare. I recently earned a certificate from the University of Washington in Full Stack Web Development, where I developed skills in JavaScript, CSS, React.js, responsive web design, and more.</p>
+            <p>My Bachelor's degree in Molecular, Cellular, and Developmental Biology from the University of Washington taught me to think critically and creatively solve problems. My experience working in healthcare gave me excellent interpersonal and communication skills as well as quickly leaning new tasks and adapting to changing workplace pressures.</p>
+            <p>When I am not coding, I enjoy bouldering, skiing, hiking, and spending time with my dog Corn and my cat Smudge.</p>
+            <p>I'm excited to leverage skills I have learned through education and as a working professional in order to contribute to a fast-paced, quality driven team. Reach out to me with any of the links in the footer or navigate to my projects to check out some of my work.</p>
         </div>
     </section>
   );
