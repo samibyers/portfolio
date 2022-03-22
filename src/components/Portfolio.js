@@ -33,6 +33,7 @@ function Portfolio() {
             <div className="textbox">
             <h3>TomaDoggy</h3>
             <p>Adopt a virtual pet in this website inspired by the Tomagotchi.</p>
+            <p>Utilizes JavaScript, Node.js, Express.js, Handlebars.js, MySQL, Sequelize.js</p>
             <a className="gitlink" href="https://github.com/Toma-doggy/toma-doggy" target="_blank" rel="noreferrer">Github repository</a>
             </div>
             </Carousel.Caption>
@@ -47,6 +48,7 @@ function Portfolio() {
             <div className="textbox">  
             <h3>Recipe Builder</h3>
             <p>A website for discovering new recipes.</p>
+            <p>Utilizes HTML, CSS, JavaScript, Materialize, Spoonacular API</p>
             <a className="gitlink" href="https://github.com/RecipeBuilder" target="_blank" rel="noreferrer">Github repository</a>
             </div>
             </Carousel.Caption>
@@ -61,6 +63,7 @@ function Portfolio() {
             <div className="textbox">  
             <h3>Workday Planner</h3>
             <p>A planner for the work week.</p>
+            <p>Utilizes HTML, CSS, JavaScript</p>
             <a className="gitlink" href="https://github.com/samibyers/workday-planner" target="_blank" rel="noreferrer">Github repository</a>
             </div>
             </Carousel.Caption>
@@ -75,6 +78,7 @@ function Portfolio() {
             <div className="textbox">  
             <h3>Password Generator</h3>
             <p>A custom password generator.</p>
+            <p>Utilizes HTML, CSS, JavaScript</p>
             <a className="gitlink" href="https://github.com/samibyers/random_password_generator" target="_blank" rel="noreferrer">Github repository</a>
             </div>
             </Carousel.Caption>
@@ -89,6 +93,7 @@ function Portfolio() {
             <div className="textbox">  
             <h3>Triptinerary</h3>
             <p>Create and explore custom itineraries from other users.</p>
+            <p>Utilizes HTML, CSS, JavaScript, React.js, Node.js, MongoDB</p>
             <a className="gitlink" href="https://github.com/Triptinerary" target="_blank" rel="noreferrer"> Github repository</a>
             </div>
             </Carousel.Caption>
